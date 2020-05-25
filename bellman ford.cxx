@@ -26,7 +26,7 @@ void bellman(int graph[][3],int V, int E,int src){
 	}
     for (int i = 0; i < V; ++i)
     {
-    	cout<<"vertex"<<i<<"distance is"<<" "<<dis[i]<<endl;
+    	cout<<"vertex"<<" "<<i<<"distance is"<<" "<<dis[i]<<endl;
     }
 }
 int main(){
